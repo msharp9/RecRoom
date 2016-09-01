@@ -32,7 +32,10 @@ app.post("/api/com.mailgun/send", function (req, res) {
           "from": "Mailgun Sandbox <postmaster@sandbox4d070d1dd63a471886b8ca99f19da911.mailgun.org>"
         , "to": req.body.email
         , "subject": "You've Been Challenged!"
-        , "text": "Test email"
+        , "text": "A battle to the death is about to ensue in the Rec Room!\n\n" +
+                  "You have been challenged to a Ping Pong Battle on " +
+                  req.body.date + " at " + req.body.time + ".\n\n" +
+                  "Get ready to submit a safety Good Catch!\n\n"
         }
     }).then(function (resp) {
         if (200 !== resp.statusCode) {
