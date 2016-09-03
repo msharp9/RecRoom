@@ -8,12 +8,14 @@
 <body>
   <form class="tournament js-submit">
     <h3 class="message">Create a tournament!</h3>
+    <p>Tournament Name:</p>
+    <input type='text' name='name' placeholder='Awesome Tourney' class='js-name'>
     <p>Your email:</p>
     <input type="email" name="host" placeholder="example@imflash.com" class="js-email">
     <p>What day:</p>
       <input type="date" name="date" class="js-date">
     <p>How many players:</p>
-      <select name='playerCount'>
+      <select name='playerCount' class='js-playerCount'>
         <option value="4">4</option>
         <option value="8">8</option>
         <option value="16">16</option>
