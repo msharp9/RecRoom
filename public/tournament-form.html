@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Rec Room</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <form class="tournament js-submit">
+    <h3 class="message">Create a tournament!</h3>
+    <p>Your email:</p>
+    <input type="email" name="host" placeholder="example@imflash.com" class="js-email">
+    <p>What day:</p>
+      <input type="date" name="date" class="js-date">
+    <p>How many players:</p>
+      <select name='playerCount'>
+        <option value="4">4</option>
+        <option value="8">8</option>
+        <option value="16">16</option>
+        <option value="32">32</option>
+      </select>
+    <button>Create!</button>
+  </form>
+  <script src="//code.jquery.com/jquery-3.1.0.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

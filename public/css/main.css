@@ -1,5 +1,11 @@
 @import url(//fonts.googleapis.com/css?family=Ubuntu:300,400,500);
 
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
 body, body * {
   font-family: Ubuntu, sans-serif;
 }
@@ -27,7 +33,7 @@ form {
   width: 315px;
 }
 
-input {
+input, select {
   border: 1px solid #003300;
   background: #FFFFFF;
   padding: 5px;
@@ -44,4 +50,30 @@ button {
   width: 100%;
   font-size: 1em;
   cursor: pointer;
+}
+
+.header {
+  margin: 0;
+  padding: 2em;
+  text-align: center;
+  background-color: #4D8C4D;
+  color: #003300;
+}
+.nav {
+  list-style-type: none;
+  margin: 1em;
+}
+.nav li {
+  display: inline;
+  padding: 0.5em;
+  background-color: #FFFFFF;
+  border: 1px solid #003300;
+}
+.nav a {
+  text-decoration: none;
+  color: #003300;
+}
+.nav a:hover {
+  background-color: #888888;
+  border: 1px solid #003300;
 }

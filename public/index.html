@@ -6,18 +6,17 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <div class="responseImg"></div>
-  <div class="responseText"></div>
-  <form class="challenge js-submit">
-    <h3 class="message">Who do you challenge?</h3>
-    <input type="email" name="challenge" placeholder="example@imflash.com" class="js-email">
-    <div class="time">
-      <input type="date" name="date" class="js-date">
-      <input type="time" name="time" class="js-time">
-    </div>
-    <button>Fight!</button>
-  </form>
+  <div class='header'>
+  	<h1 class='title'>Rec Room</h1>
+    <ul class='nav'>
+      <li class="tournament"><a href='tournament-form.html'>Create a tournament!</a></li>
+      <li class="challenge"><a href='index.html'>Send a challenge to a friend!</a></li>
+    </ul>
+  </div>
+  <div class='tournament'>
+  	<h2>There are no tournaments yet.</h2>
+  </div>
+
   <script src="//code.jquery.com/jquery-3.1.0.js"></script>
-  <script src="js/main.js"></script>
 </body>
 </html>
