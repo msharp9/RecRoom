@@ -43,9 +43,10 @@ input, select {
 }
 
 button {
-  background: #4D8C4D;
+  background: #8c4d4d;
   border: 1px solid #003300;
   padding: 5px;
+  margin: 0.5em;
   color: #003300;
   width: 100%;
   font-size: 1em;
